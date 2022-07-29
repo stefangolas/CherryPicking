@@ -1,7 +1,7 @@
 # CherryPicking
 
 ## 96 to 384 Cherry Picking 
-[Full algorithm explanation here:](/Time-Efficient%20Cherry%20Picking.pdf)
+[Full and nicely formatted algorithm explanation here](/Time-Efficient%20Cherry%20Picking.pdf)
 
 ### Motivation
 We want to compile a worklist into a set of time-efficient aspiration and dispense commands. To do this we have to identify sets of aspiration and dispense pairs where the wells for each aspiration and dispense (a.d.) pair lie in the same column. This way we can execute a list of multiple a.d. pairs simultaneously using the 8-channel pipetting arm.
