@@ -180,13 +180,6 @@ def tips_list_iterator(asp_list, tips_list):
 
 
 
-#debug_print_disp(dl[0])
-
-#table = [[source_cols[i][x] for i in range(len(source_cols))] for x in range(len(source_cols[0]))]
-#table = [[source_cols[i][j] for j in range(0,2)] for i in range(len(source_cols))]
-#print(tabulate(table))
-
-sys.exit()
     
 if __name__=='__main__':
     with HamiltonInterface(simulate=simulate) as ham_int:
