@@ -21,9 +21,9 @@ This is the data type we are using to represent the worklist map.
 
 wl is the worklist map, a dictionary mapping each target well to a set of source wells, e.g. x1→[y1, y2, ..] or in Python notation {target_well1: [source_well1, source_well2, ..], ...}
 
-x1→[y1, y2, ..]
-Add pair (x1, y1) to a.d. list
-x1→[y2, ..]
+x1→[y1, y2, ..] <br>
+Add pair (x1, y1) to a.d. list <br>
+x1→[y2, ..] <br>
 
 When x1→[ ] we delete x1 as a key from the worklist map.
 
