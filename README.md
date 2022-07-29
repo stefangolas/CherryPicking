@@ -29,8 +29,8 @@ x1→[y2, ..] <br>
 When x1→[ ] we delete x1 as a key from the worklist map.
 
 
-**target_cols = get_96wp_columns([target_plate], 0, 1)**
-**source_cols = get_columns_from_deck(source_plates, carrier_max_plates = 4)**
+**target_cols = get_96wp_columns([target_plate], 0, 1)** <br>
+**source_cols = get_columns_from_deck(source_plates, carrier_max_plates = 4)** <br>
 
 source_cols and target_cols are 2-dimensional lists where each element is a list representing a column of wells, for every column from source or target plates. We treat all in-line columns from separate plates on the same carrier (e.g., the first column of every plate on the same carrier) as one column. This reflects the ability of the pipetting arm to pipette from these positions simultaneously.
 
