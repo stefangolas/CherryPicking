@@ -1,7 +1,7 @@
 # CherryPicking
 
 ## 96 to 384 Cherry Picking 
-
+[Full algorithm explanation here:](/Time-Efficient%20Cherry%20Picking.pdf)
 
 ### Motivation
 We want to compile a worklist into a set of time-efficient aspiration and dispense commands. To do this we have to identify sets of aspiration and dispense pairs where the wells for each aspiration and dispense (a.d.) pair lie in the same column. This way we can execute a list of multiple a.d. pairs simultaneously using the 8-channel pipetting arm.
@@ -11,8 +11,6 @@ An a.d. list is a 2-d list containing an aspiration list and a dispense list. Ea
 **a.d. list := [ [ (TargetPlate, x), …]n, [ (SourcePlate, y), …]n ]**
 
 **a.d. pair :=  (TargetPlate, x), (SourcePlate, y)**
-
-[Contribution guidelines for this project](/Time-Efficient%20Cherry%20Picking.pdf)
 
 
 The list is extended when we add an additional pair. Every additional pair has to belong to the worklist map, an adjacency list of well-to-well transfers. We also remove the pair’s source well from the worklist map for that target well when we add a pair.
